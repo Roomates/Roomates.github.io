@@ -1,1 +1,125 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Roomate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script defer src="script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa"
+      rel="stylesheet"
+    />
+    <script defer
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  
+
+  <!-- BODY -->
+  <body>
+    <div id="mainNav">
+      <h3 id="ourhome">Roomate</h3>
+      <nav>
+        <ul>
+          <li><a href="#overview" class="active">Home</a></li>
+          <li><a href="#communication" class="active">Messaging</a></li>
+          <li><a href="#finance" class="active">Payments</a></li>
+          <li><a href="#reminders" class="active">Reminders</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Overview -->
+    <div class="eachSection" id="overview">
+      <img src="Home.png" alt="" id="ourHomeLogo" />
+
+      </h3>
+      <div id="secondMessaging">
+          <h1>Introducing Roomate</h1>
+          <h3>
+            A cohesive app that allows you to have your own messaging thread, allows for assigned chores/reminders & makes real time payments easier between your roommates.
+          </h3>
+        </div>
+    </div>
+
+    <div class="eachSection" id="communication">
+      <img id="messagingPhoto" src="messaging.png" alt="" />
+      <div id="secondMessaging">
+        <h1><strong>Messaging with no distractions.</strong></h1>
+        <h2>
+          Our app allows you to get straight to the point with your rommates
+          without any extra distractions. No status updates, no stories, just
+          messages.
+        </h2>
+      </div>
+    </div>
+
+    <div class="eachSection" id="finance">
+      
+      <div id="secondMessaging">
+        <h1><strong>Payments just for home.</strong></h1>
+        <h2>
+          Make quick and easy payments to each other with only few taps of a button. You can request and send money to each other and the payments are all private to the household.
+        </h2>
+      </div>
+      <img id="messagingPhoto" src="finance.gif" alt="" />
+    </div>
+
+    <div class="eachSection" id="reminders">
+        <img id="messagingPhoto" src="reminders.png" alt="" />
+        <div id="secondMessaging">
+          <h1><strong>Be efficient with reminders</strong></h1>
+          <h2>
+            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+          </h2>
+        </div>
+      </div>
+
+      <div  id="remindersSecond">
+        
+        <div class="iconDescription" >
+          <h2 style="margin-bottom: 10px">Confrim pickup</h2>
+          <img id="confrimIcon" src="Confrim.png" alt="" />
+          <p style="margin-top: 10px;">
+              <h4>Help out your roomates!</h4> <br><br> 
+              Drive by a store on your way back home? Anyone can pick up items for the house,
+              hitting confrim will transfer associated funds to your account.
+          </p>
+        </div>
+
+        <div class="iconDescription">
+            <h2 style="margin-bottom: 10px">Get Reminders</h2>
+            <img id="RemindIcon" src="Remind.png" alt="" />
+            <p style="margin-top: 10px;">
+                <h4>Never forget with RooMates!</h4> <br><br>
+                 Are you often forgetful? With our app you can set reminders for certian date or time, or you can set 
+                 it to receive push notifications any time you are near a store that carries these items. 
+            </p>
+            </div>
+
+        <div class="iconDescription">
+        <h2 style="margin-bottom: 10px">Contact Roommate</h2>
+        <img id="ContactIcon" src="Contact.png" alt="" />
+        <p style="margin-top: 10px;">
+            <h4>Got a question?</h4> <br><br> 
+            Not sure if they wanted the red one or the blue? If they need two or four? Or do you have an extra item you could lend to your roommates?
+            With just one tap you can contact your roomates to take care of any additional details.
+        </p>  
+      </div>
+    </div>
+
+      <div class="eachSection" id="contactUs">
+      <div id="mc_embed_signup">
+      <form action="https://roomate.us19.list-manage.com/subscribe/post?u=0e41454ddd880f102a7303362&amp;id=3dc07ff78d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <label id='maillabel' for="mce-EMAIL">Stay tuned for updates!</label><br>
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+      </form>
+  </body>
+</html>
