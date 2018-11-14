@@ -6,7 +6,6 @@
     <title>Roomate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script defer src="script.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Comfortaa"
       rel="stylesheet"
@@ -16,6 +15,11 @@
       integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
       crossorigin="anonymous"
     ></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </head>
   
 
@@ -69,18 +73,65 @@
       <img id="messagingPhoto" src="finance.gif" alt="" />
     </div>
 
-    <div class="eachSection" id="reminders">
-        <img id="messagingPhoto" src="reminders.png" alt="" />
-        <div id="secondMessaging">
-          <h1><strong>Be efficient with reminders</strong></h1>
-          <h2>
-            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
-          </h2>
-        </div>
+    <div class="eachSection">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div id='reminders'>
+                        <img id="messagingPhoto" src="reminders.png" alt="" />
+                        <div id="secondMessaging">
+                            <h1><strong>Be efficient with reminders</strong></h1>
+                            <h2>
+                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id='reminders'>
+                        <img id="messagingPhoto" src="reminders.png" alt="" />
+                        <div id="secondMessaging">
+                            <h1><strong>Be efficient with reminders</strong></h1>
+                            <h2>
+                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id='reminders'>
+                        <img id="messagingPhoto" src="reminders.png" alt="" />
+                        <div id="secondMessaging">
+                            <h1><strong>Be efficient with reminders</strong></h1>
+                            <h2>
+                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <img src="back.svg" height="30px" alt="">
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <img src="front.svg" height="30px" alt="">
+            </a>
+        </div>    
       </div>
 
       <div  id="remindersSecond">
-        
         <div class="iconDescription" >
           <h2 style="margin-bottom: 10px">Confrim pickup</h2>
           <img id="confrimIcon" src="Confrim.png" alt="" />
