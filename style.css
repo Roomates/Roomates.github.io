@@ -35,13 +35,14 @@ input:focus {
 }
 
 .eachSection {
-	width: 100vw;
+	width: 100%;
 }
 .iconDescription {
 	text-align: center;
 	height: 100%;
 	width: 33vw;
 	padding: 2%;
+	display: block;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -145,6 +146,7 @@ input:focus {
 
 #contactUs {
 	height: 20vh;
+	padding-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -183,3 +185,14 @@ input:focus {
 #roomateWord {
 	color: rgba(185, 60, 73, 1);
 }
+
+
+
+.carousel-indicators li {
+	background-color: #999 !important;
+	background-color: rgba(70,70,70,.25) !important;
+  }
+  
+  .carousel-indicators .active {
+	background-color: #444 !important;
+  }
