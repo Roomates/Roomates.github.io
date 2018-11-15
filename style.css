@@ -26,7 +26,6 @@ li a {
 	text-decoration: none;
 	padding-right: 30px;
 }
-
 a:hover {
 	opacity: 1;
 }
@@ -44,9 +43,29 @@ input:focus {
 	width: 33vw;
 	padding: 2%;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: #333 !important;
+	border-color: red;
+	border-width: 20px;
+	border-radius: 100;
+}
+.carousel-control-prev,
+.carousel-control-next {
+	width: 5% !important;
+}
+
 ::placeholder {
 	color: #fafaff;
 	opacity: 0.8;
+}
+#menuNavBar {
+	color: #fafaff !important;
+	opacity: 0.6 !important;
+}
+#menuNavBar:hover {
+	opacity: 1 !important;
+	text-decoration: none !important;
 }
 #maillabel {
 	font-size: 3vh;
@@ -160,14 +179,6 @@ input:focus {
 	margin-left: 2%;
 	color: #333;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-	background-color: #333 !important;
-	border-color: red;
-	border-width: 20px;
-	border-radius: 100;
-}
-.carousel-control-prev,
-.carousel-control-next {
-	width: 5% !important;
+#roomateWord {
+	color: rgba(185, 60, 73, 1);
 }

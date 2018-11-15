@@ -29,10 +29,10 @@
       <h3 id="ourhome">Roomate</h3>
       <nav>
         <ul>
-          <li><a href="#overview" class="active">Home</a></li>
-          <li><a href="#communication" class="active">Messaging</a></li>
-          <li><a href="#finance" class="active">Payments</a></li>
-          <li><a href="#reminders" class="active">Reminders</a></li>
+          <li><a href="#overview" id="menuNavBar" class="active">Home</a></li>
+          <li><a href="#communication" id="menuNavBar" class="active">Messaging</a></li>
+          <li><a href="#finance" id="menuNavBar" class="active">Payments</a></li>
+          <li><a href="#reminders" id="menuNavBar" class="active">Reminders</a></li>
         </ul>
       </nav>
     </div>
@@ -43,9 +43,9 @@
 
       </h3>
       <div id="secondMessaging">
-          <h1>Introducing Roomate</h1>
+          <h1>Introducing <span id='roomateWord'>Roomate</span></h1>
           <h3>
-            A cohesive app that allows you to have your own messaging thread, allows for assigned chores/reminders & makes real time payments easier between your roommates.
+            A cohesive app that allows you to have your own messaging thread, allows for assigned chores/reminders & makes real time payments easier between you & your roommates.
           </h3>
         </div>
     </div>
@@ -84,13 +84,26 @@
             
             <!-- The slideshow -->
             <div class="carousel-inner">
+
                 <div class="carousel-item active">
                     <div id='reminders'>
-                        <img id="messagingPhoto" src="reminders.png" alt="" />
+                        <img id="messagingPhoto" src="mainReminder.png" alt="" />
                         <div id="secondMessaging">
-                            <h1><strong>Be efficient with reminders</strong></h1>
+                            <h1><strong>Efficient Reminders</strong></h1>
                             <h2>
-                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+                            Set self reminders as well as house reminders. Be efficient with all the reminders that pile up within your household.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div id='reminders'>
+                        <img id="messagingPhoto" src="chores.png" alt="" /> 
+                        <div id="secondMessaging">
+                            <h1><strong>Smart chores</strong></h1>
+                            <h2>
+                            We offer three different types of chores: automated, standard and self. With these three options you can be smart about how you assign chores!
                             </h2>
                         </div>
                     </div>
@@ -100,21 +113,9 @@
                     <div id='reminders'>
                         <img id="messagingPhoto" src="reminders.png" alt="" />
                         <div id="secondMessaging">
-                            <h1><strong>Be efficient with reminders</strong></h1>
+                            <h1><strong>Powerful grocery organizer</strong></h1>
                             <h2>
-                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div id='reminders'>
-                        <img id="messagingPhoto" src="reminders.png" alt="" />
-                        <div id="secondMessaging">
-                            <h1><strong>Be efficient with reminders</strong></h1>
-                            <h2>
-                            <u>Groceries</u>: Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
+                            Know exactly what you need for next time you go shopping. Mark important items, get reminders when nearby stores, and get instant fund transfer when you pick up an item listed by your rooommates. Groceries made simple.
                             </h2>
                         </div>
                     </div>
