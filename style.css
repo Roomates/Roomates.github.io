@@ -128,7 +128,7 @@ input:focus {
 	align-items: center;
 }
 #remindersSecond {
-	height: 45vh;
+/* 	height: 45vh; */
 	width: 100vw;
 	background-color: #fafaff;
 	display: inline-flex;
