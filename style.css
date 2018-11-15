@@ -100,10 +100,10 @@ input:focus {
 
 #ourhome {
 	color: #fafaff;
-	margin-right: auto;
-	float: left;
-	font-size: 1.7vh;
-	padding-left: 20px;
+	margin-right: auto !important;
+	float: left !important;
+	font-size: 1.7vh !important;
+	padding-left: 20px !important;
 }
 #mainNav {
 	width: 100vw;
@@ -113,9 +113,10 @@ input:focus {
 	justify-content: flex-end;
 	align-items: center;
 	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
+	position: fixed !important;
+	top: 0 !important;
+	width: 100% !important;
+	z-index: 1;
 }
 
 #reminders {
